@@ -1,0 +1,5 @@
+<h1>{{ car.brand.name }} - {{ car.model }}</h1>
+<p>Price: {{ car.price }}</p>
+<p>Year: {{ car.year }}</p>
+<p>{{ car.description }}</p>
+<a href="{% url 'brand_cars' car.brand.id %}">Back to Brand</a>
